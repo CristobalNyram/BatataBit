@@ -1,0 +1,42 @@
+/* 
+CONVENIO DE COMO ESTILAR
+
+1.-posicinamiento
+2.- modelo de caja
+3.-tipografia
+4.-visuales
+5.-OTROS
+*/
+
+:root
+{
+    /* COLORES */
+    --bitcoin-orange:#F7931A;
+    --sotf-orange:#ffe9d5;
+    --secondary-blue:#1a9af7;
+    --sotf-blue:#e7f5ff;
+    --warm-black:#2011ec1c;
+    --black:#282623;
+    --grey:#BABABA;
+    --off-white:#faf8f7;
+    --just-white:#fff;
+
+}
+
+/* estilos generales de csss------------------------------------------------------------------------- */
+*
+{
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+html
+{
+    font-size: 62.S%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
