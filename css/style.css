@@ -15,11 +15,13 @@ CONVENIO DE COMO ESTILAR
     --sotf-orange:#ffe9d5;
     --secondary-blue:#1a9af7;
     --sotf-blue:#e7f5ff;
-    --warm-black:#2011ec1c;
-    --black:#282623;
+    --warm-black:#282623;
+    --black:#201e1c;
     --grey:#BABABA;
     --off-white:#faf8f7;
     --just-white:#fff;
+    --soft-blue: #e7f5ff;
+
 
 }
 
@@ -245,7 +247,19 @@ main
     color:var(--bitcoin-orange);
 
 }
-.currency-table--container
+
+
+.main-comisiones-table .comisiones-table--title
+{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    line-height: 2.3rem;    
+
+    color: var(--secondary-blue);
+}
+.currency-table--container , .comisiones-table--container
 {
     width: 90%;
         min-width: 230px;
@@ -256,7 +270,8 @@ main
     margin:0 auto;
 }
 
-.currency-table--container table
+.currency-table--container table,
+.comisiones-table--container table
 {
     width: 100%;
     height: 100%;
@@ -266,7 +281,8 @@ main
 
 }
 
-.currency-table--container td 
+.currency-table--container td,
+.comisiones-table--container td
 {
     width: 50%;
 
@@ -285,29 +301,258 @@ main
 
 
 /*bordeando la tabla*/
-.main-currency-table .table__top-left
+.main-currency-table .table__top-left,.main-comisiones-table .table__top-left
 {
     border-radius: 10px 0px 0 0px;
 }
 
 .main-currency-table .table__top-right
+,
+.main-comisiones-table .table__top-right
 {
     border-radius: 0px 10px 0px 0px;
 }
 
 .main-currency-table .table__bottom-left
+,.main-comisiones-table .table__bottom-left
+
+
 {
     border-radius: 0px 0px 0px 20px;
 }
 
 .main-currency-table .table__bottom-right
+,
+.main-comisiones-table .table__bottom-right
 {
     border-radius: 0px 0px 20px 0px;
+
 }
 
 
+.currency-table--date 
+{
+    width: 190px;
+    height: 30px;
+
+    margin: 0 auto;
+
+    /*para separarlo de la tabla*/
+    margin-top: 15px;
+
+    /*generar un espacio interno*/
+    padding: 8px;
+    
+    background-color: var(--sotf-orange);
+    border-radius: 2px;
+
+}
+.comisiones-table--date
+{
+    width: 190px;
+    height: 30px;
+
+    margin: 0 auto;
+
+    /*para separarlo de la tabla*/
+    margin-top: 15px;
+
+    /*generar un espacio interno*/
+    padding: 8px;
+    
+    background-color: var(--soft-blue);
+    border-radius: 2px;
+   
+
+}
+
+
+
+.currency-table--date p,
+.comisiones-table--date p{
+    
+    
+    font-size: 1.1rem;
+    
+    color: var(--warm-black);
+
+}
+
+
+/*icono de subida o bajada*/
+
+.down
+{
+    background-image: url(../img/assets/iconos/trending-down.svg);
+
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-left: 10px;
+
+
+    width:15px;
+    height:15px;
+}
+.up
+{
+ 
+    background-image: url(../img/assets/iconos/trending-up.svg);
+
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-left: 10px;
+
+
+    width:15px;
+    height:15px;   
+}
 
 
 
 /*Fin de Maquetando Tablas*************************************************************************************************/
 
+
+
+
+
+
+
+
+
+
+/*inicio----Tarjetas---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.main-product-detail
+{
+    position: relative;
+
+    width: 100%;
+        min-width: 320px;
+    height: auto;    
+
+    padding: 20ox 10px;
+
+    background-color: var(--black);
+}
+
+.product-datail--batatalogo
+{
+    /*hay que vrificar quien es el padre directo*/
+
+    position: absolute;
+        top: -15px;
+        left: calc(45% - 10px);
+
+    width: 40px;
+    height: 25px;
+
+    
+
+    background-image: url(../img/iconos/batata.svg);
+
+
+}
+
+
+.product-detail---title
+{
+    width: 90%;
+        min-width: 288px;
+        height: auto;
+
+    margin: 0 auto ;
+    padding-top: 40px;
+    text-align: center;
+
+    
+
+}
+.product-detail---title h2
+{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+
+    color:var(--just-white) ;
+}
+
+.product-detail---title p{
+    margin-bottom: 20px;
+    font-weight: 500;
+
+
+    color: #888888;
+}
+
+
+
+
+.product-detail--card
+{
+        width: 100%;
+            min-width: 288px;
+            max-width: 400px;
+
+        height: 150px;
+
+        margin: 15px auto;
+        padding: 15px;
+
+        background-color: var(--warm-black);
+
+        border-radius: 5px;
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.20);
+
+}
+.product-detail--card .card-icono
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+    margin-bottom: 10px;
+  
+
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.clock
+{
+    background-image: url("../img/assets/iconos/trending-up.svg");
+}
+
+.product--card-title
+{
+    margin-bottom: 15px;
+
+    font-size: 1.8rem;
+
+    font-weight: bold;
+
+    line-height: 1.8rem;
+
+    color: var(--just-white);
+
+
+}
+.product--card-body
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    color: var(--grey);
+}
+
+
+/*-Fin de Tarjeta---------------------------------------------------------------------------------------------------------------------------------------------------fin de tarjetas*/
