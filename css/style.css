@@ -1,4 +1,4 @@
-/* 
+/*
 CONVENIO DE COMO ESTILAR
 
 1.-posicinamiento
@@ -43,7 +43,7 @@ html
 
 /* HEADER-------------------------------------------------------------------------------------------------------------------------- */
 
-header 
+header
 {
     position: relative;
     display: flex;
@@ -58,14 +58,14 @@ header
 
     /* linear gradinte */
     background:linear-gradient( #201e1c 15.69%, #f7931a 100%);
-    
+
 }
 
 header img
 {
     width: 150px;
     height: 24px;
-    
+
     margin-top: 60px;
 /* la manera de cenral a un contenedor que tenga display flex */
 
@@ -99,7 +99,7 @@ header img
 .header--title-container p
 {
     margin-top: 25px;
-    
+
     font-size: 1.0rem;
     font-weight: 500;
     /*  */
@@ -132,7 +132,7 @@ header img
     font-size: 1.4rem;
     font-weight: bold;
     text-decoration: none;
-    
+
     color: var(--black);
 
 }
@@ -154,7 +154,7 @@ main
     height: auto;
     background-color: var(--off-white)
 
-     
+
 }
 
 .main-exchangue-container
@@ -204,13 +204,13 @@ main
     margin-bottom: 30px;
     font-size: 2.4rem;
     font-weight: bold;
-    
+
     line-height: 2.6rem;
 
     color: var(--black);
 }
 
-.main-exchangue-container p 
+.main-exchangue-container p
 {
     margin-bottom: 30px;
     font-size: 1.4rem;
@@ -229,7 +229,7 @@ main
         min-width: 235px;
         max-width: 500px;
 
-    height: 360px;    
+    height: 360px;
 
     margin: 0 auto;
 
@@ -255,7 +255,7 @@ main
     font-size: 1.8rem;
     font-weight: bold;
 
-    line-height: 2.3rem;    
+    line-height: 2.3rem;
 
     color: var(--secondary-blue);
 }
@@ -276,7 +276,7 @@ main
     width: 100%;
     height: 100%;
 
-  
+
 
 
 }
@@ -295,7 +295,7 @@ main
     color: var(--grey);
 
     background-color: var(--just-white);
-    
+
 
 }
 
@@ -330,7 +330,7 @@ main
 }
 
 
-.currency-table--date 
+.currency-table--date
 {
     width: 190px;
     height: 30px;
@@ -342,7 +342,7 @@ main
 
     /*generar un espacio interno*/
     padding: 8px;
-    
+
     background-color: var(--sotf-orange);
     border-radius: 2px;
 
@@ -359,10 +359,10 @@ main
 
     /*generar un espacio interno*/
     padding: 8px;
-    
+
     background-color: var(--soft-blue);
     border-radius: 2px;
-   
+
 
 }
 
@@ -370,10 +370,10 @@ main
 
 .currency-table--date p,
 .comisiones-table--date p{
-    
-    
+
+
     font-size: 1.1rem;
-    
+
     color: var(--warm-black);
 
 }
@@ -398,7 +398,7 @@ main
 }
 .up
 {
- 
+
     background-image: url(../img/assets/iconos/trending-up.svg);
 
     display: inline-block;
@@ -410,7 +410,7 @@ main
 
 
     width:15px;
-    height:15px;   
+    height:15px;
 }
 
 
@@ -434,9 +434,10 @@ main
 
     width: 100%;
         min-width: 320px;
-    height: auto;    
+    height: auto;
 
-    padding: 20ox 10px;
+
+    padding: 20px 10px;
 
     background-color: var(--black);
 }
@@ -452,7 +453,7 @@ main
     width: 40px;
     height: 25px;
 
-    
+
 
     background-image: url(../img/iconos/batata.svg);
 
@@ -467,10 +468,12 @@ main
         height: auto;
 
     margin: 0 auto ;
+
+
     padding-top: 40px;
     text-align: center;
 
-    
+
 
 }
 .product-detail---title h2
@@ -502,7 +505,8 @@ main
 
         height: 150px;
 
-        margin: 15px auto;
+        margin: 35px auto;
+
         padding: 15px;
 
         background-color: var(--warm-black);
@@ -519,7 +523,7 @@ main
     height: 20px;
 
     margin-bottom: 10px;
-  
+
 
 
     background-size: cover;
@@ -529,7 +533,16 @@ main
 }
 .clock
 {
-    background-image: url("../img/assets/iconos/trending-up.svg");
+    background-image: url("../img/assets/iconos/dollar-sign.svg");
+}
+.eye
+{
+    background-image: url("../img/assets/iconos/eye.svg");
+
+}
+.check
+{
+    background-image: url("../img/assets/iconos/check-circle.svg");
 }
 
 .product--card-title
@@ -548,11 +561,156 @@ main
 }
 .product--card-body
 {
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 500;
+    line-height: 1rem;
 
     color: var(--grey);
 }
 
 
 /*-Fin de Tarjeta---------------------------------------------------------------------------------------------------------------------------------------------------fin de tarjetas*/
+
+
+
+/*Inicio de zona comodin----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.bittcoin-image-container
+{
+    width: 100%;
+        min-width: 320px;
+
+    height: 50vh;
+
+    background: url("../img/bitcoinbaby2x.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.bittcoin-image-container h2
+{
+    text-align: center;
+    padding-top: 60px;
+
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    font-weight: bold;
+
+    color: var(--just-white);
+}
+
+/*Fin de  zona comodin--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*Secccion de plane---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.main-planes-container
+{
+    width: 100%;
+        min-width: 320px;
+
+    padding-bottom: 70px;
+
+    text-align: center;
+
+
+
+}
+
+.planes--title
+{
+    width: 90%;
+        min-width: 288px;
+
+    height: auto;
+
+    margin: 0 auto;
+     margin-bottom: 50px; 
+
+}
+
+.planes--title h2
+{
+    padding-top: 50px;
+    font-size: 2.4rem;
+
+    font-weight: bold;
+
+    line-height: 2.6rem;
+
+    color:var(--black);
+}
+
+.planes--title p
+{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    color: #BABABA;
+
+    line-height:1.8rem ;
+}
+
+
+
+
+.planes-container--card
+{
+    position: relative;
+    width: 70%;
+        min-width: 230px;
+        max-width: 300px;
+    
+    height: 250px;
+    margin: 50px auto 0;
+
+    padding: 0 15px;
+
+    background-color: var(--just-white);
+
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(89, 73, 30,0.16);
+}
+
+.recomendado 
+{
+    position: absolute;
+        left: calc(32% + 10px);
+        top: -8px;
+        
+    width:100px;    
+    max-height: 30px;   
+    
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+   
+    padding: 6px;
+    border-radius: 10px;
+
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
+
+}
+
+.plan-info-container
+{
+    padding-top: 25px;
+}
+
+
+.plan-card--title
+{
+    padding: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+/*Fin de seccion de planes----------------------------------------------------------------------------------------------------------------------------------------------------------*/
