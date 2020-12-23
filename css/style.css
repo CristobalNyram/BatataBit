@@ -607,7 +607,19 @@ main
 
 
 /*Secccion de plane---------------------------------------------------------------------------------------------------------------------------------------------------*/
+.planes-container--slider
+{
+    display: flex;
+    gap: 50px; 
 
+    height: 316px;
+    scroll-snap-align: center;
+
+    overflow-x:scroll;
+    overscroll-behavior-x:contain;
+    scroll-snap-type: xproximity;
+    
+}
 .main-planes-container
 {
     width: 100%;
@@ -661,6 +673,8 @@ main
 
 .planes-container--card
 {
+    
+
     position: relative;
     width: 70%;
         min-width: 230px;
@@ -680,7 +694,7 @@ main
 .recomendado 
 {
     position: absolute;
-        left: calc(32% + 10px);
+        left: calc(50% - 50px);
         top: -8px;
         
     width:100px;    
@@ -706,11 +720,87 @@ main
 
 .plan-card--title
 {
-    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
     color: var(--black);
 }
+
+.plan-card--price
+{
+    padding: 5px 0;
+
+    font-size: 5.2rem;
+    font-weight: bold;
+
+    
+    line-height: 4rem;
+    color: var(--black);
+
+
+}
+
+.plan-card--price #money{
+    font-size:1.2rem;
+    font-weight: 300;
+
+   position: relative;
+
+   top: -25px;
+   left:-5px;
+}
+
+.plan-card--saving
+{
+    color:var(--grey);
+    font-weight: bold;
+}
+
+
+.plan-card--ca
+{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    
+
+
+    border-radius: 5px;
+    border: 2px  solid var(--bitcoin-orange);
+
+    font-family: "DM Sans";
+    font-weight: bold;
+    font-size: 1.2rem;
+    color:var(--black);
+    line-height:1.8rem;
+
+
+
+
+
+    background-color: var(--off-white);
+
+}
+
+
+.plan-card--ca span
+{
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+
+    background-image: url("../img/orange-right-arrow.svg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*para aliniar el icocno*/
+    vertical-align: text-bottom;
+    
+}
+
 
 /*Fin de seccion de planes----------------------------------------------------------------------------------------------------------------------------------------------------------*/
