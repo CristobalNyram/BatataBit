@@ -13,4 +13,4 @@ Proyecto realizado en la plataforma de platzi, aplicando temas de :
 Proyecto realizado a la empresa:
 >BatataBit
 
-Realizadó por :@CristobalNyram :shipt:
+Realizadó por :@CristobalNyram
